@@ -25,9 +25,10 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+      "A short description of "
                    DESC
 
-  s.homepage     = "https://github.com/SenWinter/DSTest"
+  s.homepage     = "https://github.com/SenWinter/DSTest/"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -38,7 +39,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "Apache License, Version 2.0"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -64,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-    s.platform     = :ios, "7.0"
+  # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -91,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "Classes", "DSTest/Classes/**/*.{h,m}"
-#s.exclude_files = "Classes/Exclude"
+  s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
